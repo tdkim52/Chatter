@@ -4,6 +4,14 @@ Terminal Based Chat Link Client
 Run on 132 column by 43 row terminal window.
 Program utilizes unbuffered stream and no echo of typed characters in insert mode
 
+TODO:
+		Fix bugs when running with flags causing unpredicted behavior
+		Fix bugs with some commands not working correctly (i.e. external filters, read)
+		Add :source command to run scripts
+		Fix: non-blocking when in insert mode and after ':' is typed
+		Comment code for proper documentation
+		Remove debugging statements/blocks of code
+
 Command line flags:
 
     -noleft       : no incoming connection

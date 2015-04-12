@@ -1,28 +1,19 @@
 /*
   Timothy Kim
-  W01011895
-  November 25, 2014
-  CSCI367 @ 10am
   
-  Piggy 4
-
-  Implementation of the piggy3
-  networking assignment.
+  chatter version 5
   
-  Basic functionalities work as they did in piggy2
-  
-  Most commands work except source which was not implemented.
+  Most commands work except source which has not been implemented yet.
   Read also has some formatting differences due to newline
   characters and a buffer limit.
 
-  To achieve as close to working, piggy should be ran with no arguments
+  Works best when ran with no command line arguments
   For some reason running with various arguments and flags
   causes certain commands not to behave correctly.
 
   Program blocks when in inserting mode and will not update
   windows until esc is hit to go back to command mode.
-  I tried to fix this issue but could not locate the error
-  in my logic/code.
+ 
   Program also blocks when after the : key is pressed as
   it waits for user to press enter to indicate the full 
   command.
