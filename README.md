@@ -5,6 +5,7 @@ Run on 132 column by 43 row terminal window.
 Program utilizes unbuffered stream and no echo of typed characters in insert mode
 
 TODO:
+
 		Fix bugs when running with flags causing unpredicted behavior
 		Fix bugs with some commands not working correctly (i.e. external filters, read)
 		Add :source command to run scripts
